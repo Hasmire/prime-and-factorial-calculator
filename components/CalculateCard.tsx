@@ -1,5 +1,6 @@
 "use client";
 
+// Importing necessary components and functions
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -10,17 +11,20 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Label } from "./ui/label";
 import { useState } from "react";
 
+// Define the props for the CalculateCard component
 type CalculateCardProps = {
   title: string;
   description: string;
   calculate: (num: number) => string;
 };
 
+/**
+ * CalculateCard is a reusable component for performing calculations.
+ * It uses react-hook-form for form management and zod for form validation.
+ */
 export default function CalculateCard(props: CalculateCardProps) {
   const { title, description } = props;
-
   const [output, setOutput] = useState("");
-
   const form = useForm<NumberForm>({
     resolver: zodResolver(NumberFormSchema),
     defaultValues: {

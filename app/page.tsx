@@ -1,12 +1,14 @@
+// Importing necessary components and functions
 import CalculateCard from "@/components/CalculateCard";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { calculateFactorial } from "@/lib/calculateFactorial";
 import { primeCheck } from "@/lib/primeCheck";
 
+/**
+ * The Home component is the main entry point of the app.
+ * It uses the shadcn UI library's Tabs component to switch between prime checking and factorial calculation functionalities.
+ * Each tab contains a CalculateCard component for performing the respective calculations.
+ */
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">

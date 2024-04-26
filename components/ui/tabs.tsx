@@ -1,3 +1,5 @@
+// This is a component from the shadcn library
+
 "use client";
 
 import * as TabsPrimitive from "@radix-ui/react-tabs";

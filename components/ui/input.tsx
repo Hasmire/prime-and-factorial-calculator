@@ -1,3 +1,5 @@
+// This is a component from the shadcn library
+
 import * as React from "react";
 
 import { cn } from "@/lib/utils";

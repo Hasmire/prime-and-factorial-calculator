@@ -1,3 +1,5 @@
+// This is a component from the shadcn library
+
 "use client";
 
 import * as LabelPrimitive from "@radix-ui/react-label";
