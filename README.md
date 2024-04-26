@@ -1,5 +1,4 @@
 # Prime Checker and Factorial Calculator
-This project is a Prime Checker and Factorial Calculator web application built with Next.js, TypeScript, and a combination of UI libraries including Tailwind CSS, Shadcn, and Neobrutalism components. It utilizes Zod for input validation and React Hook Form for form management.
 
 ## What did I use?
 - Next.js
