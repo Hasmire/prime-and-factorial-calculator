@@ -18,7 +18,7 @@ export default function Home() {
         </a>
       </div>
       <div className="absolute pattern-dots pattern-indigo-500 pattern-bg-bg pattern-size-6 pattern-opacity-20 h-screen w-screen"></div>
-      <Tabs defaultValue="prime" className="md:min-w-[400px] z-10 md:p-0">
+      <Tabs defaultValue="prime" className="md:min-w-[400px] min-w-[300px] z-10 md:p-0">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="prime">Prime</TabsTrigger>
           <TabsTrigger value="factorial">Factorial</TabsTrigger>
